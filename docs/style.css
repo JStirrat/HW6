@@ -1,0 +1,28 @@
+/* 
+    John Stirrat
+    CPSC 332 Web Development
+    HW6 - Jquery Stopwatch
+    HW6 Starter code
+    Modified from: https://codepen.io/cathydutton/pen/GBcvo
+*/
+
+:root {
+    --hue: rgb(255, 0, 212);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: var(--hue);
+    text-align: center;
+}
+
+#timer {
+    border: 3px solid rgba(140, 155, 173, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    box-shadow: 10px 5px 5px var(--hue);
+}
